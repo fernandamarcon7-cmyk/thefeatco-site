@@ -6,7 +6,7 @@ export const INSTAGRAM_URL = "https://instagram.com/thefeat.co";
 export const DIRECT_URL = "https://ig.me/m/thefeat.co";
 export const INSTAGRAM_HANDLE = "@thefeat.co";
 
-export const ADBAR = ["LOTE 001", "FEITO À MÃO · NÃO EM MASSA", "6% OFF NO PIX"];
+export const ADBAR = ["LOTE 001", "SEM REPOSIÇÃO", "FEITO À MÃO · NÃO EM MASSA", "6% OFF NO PIX"];
 
 export const WELCOME = {
   title: ["Ela chega pronta", "Você termina"],
