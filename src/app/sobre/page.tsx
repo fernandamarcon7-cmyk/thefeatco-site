@@ -83,7 +83,7 @@ export default function SobrePage() {
           <div className="space-y-8 lg:pt-16">
             {[
               ["Atendimento", "Só pelo direct do @thefeat.co. Dúvida de tamanho, pedido ou troca, é lá."],
-              ["Pagamento", "Pix com 6% off ou cartão em até 2x sem juros. Frete calculado na finalização."],
+              ["Pagamento", "Pix com 6% off ou cartão em até 2x sem juros. Levando 2 camisetas, você ganha desconto no carrinho. Frete calculado na finalização."],
               ["Lote", "Nº 001 · 66 peças · Sem reposição garantida."],
             ].map(([t, d]) => (
               <div key={t} className="border-t border-paper/25 pt-5">

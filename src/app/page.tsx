@@ -1,4 +1,5 @@
 import Hero from "@/components/home/Hero";
+import KitPromo from "@/components/home/KitPromo";
 import Drop from "@/components/home/Drop";
 import Photo from "@/components/home/Photo";
 import Welcome from "@/components/home/Welcome";
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <KitPromo />
       <Drop />
       <Photo src="/img/banner-4.webp" alt="Quatro pessoas vestindo as camisetas FeaT&Co preta e off-white" />
       <Welcome />

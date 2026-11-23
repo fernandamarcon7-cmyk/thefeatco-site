@@ -6,7 +6,15 @@ export const INSTAGRAM_URL = "https://instagram.com/thefeat.co";
 export const DIRECT_URL = "https://ig.me/m/thefeat.co";
 export const INSTAGRAM_HANDLE = "@thefeat.co";
 
-export const ADBAR = ["LOTE 001", "SEM REPOSIÇÃO", "FEITO À MÃO · NÃO EM MASSA", "6% OFF NO PIX"];
+export const ADBAR = ["LEVE 2 CAMISETAS COM DESCONTO", "LOTE 001", "SEM REPOSIÇÃO", "FEITO À MÃO · NÃO EM MASSA", "6% OFF NO PIX"];
+
+// Promoção do kit: o desconto é configurado na Nuvemshop (Descontos > Promoções, desconto progressivo a partir de 2 peças).
+export const KIT_PROMO = {
+  kicker: "Black Friday · Kit 2 peças",
+  title: ["Leve 2.", "Pague menos."],
+  text: "Comprando duas camisetas você ganha desconto. Qualquer cor, qualquer tamanho. O desconto aparece direto no carrinho e ainda soma com o Pix.",
+  short: "Leve 2 camisetas e ganhe desconto · qualquer cor e tamanho",
+};
 
 export const WELCOME = {
   title: ["Ela chega pronta", "Você termina"],
@@ -40,7 +48,7 @@ export const TERMS_SUMMARY = [
 export const TERMS = [
   { title: "Quem somos", text: `FeaT&Co${LEGAL_LINE ? `, operada por ${LEGAL_LINE}` : ""}. Atendimento exclusivo pelo direct do @thefeat.co.` },
   { title: "As peças", text: "Cada camiseta recebe um patch aplicado e desfiado à mão. Fios soltos e pequenas diferenças entre peças fazem parte do design. Cores podem variar conforme a tela. Algumas imagens de campanha foram produzidas com recursos digitais. Lote limitado, sem reposição garantida." },
-  { title: "Preço e pagamento", text: "R$ 148,00 no cartão, em até 2x sem juros, ou 6% de desconto no Pix. O pedido só é confirmado após a aprovação do pagamento." },
+  { title: "Preço e pagamento", text: "R$ 148,00 no cartão, em até 2x sem juros, ou 6% de desconto no Pix. Na compra de duas ou mais camisetas, o desconto do kit é aplicado no carrinho enquanto a promoção estiver ativa. O pedido só é confirmado após a aprovação do pagamento." },
   { title: "Envio", text: "Postagem em até 2 dias úteis após a confirmação. Frete e prazo calculados pelo CEP. Endereço incorreto gera novo frete por conta do cliente. Avarias de transporte devem ser informadas em até 7 dias, com fotos." },
   { title: "Regra para qualquer devolução", text: "Solicitação só pelo direct, com o número do pedido. Fotos da peça inteira, frente, costas, patch e etiqueta antes de qualquer envio. A peça deve voltar sem uso, sem lavagem, sem manchas, odores ou danos e com etiqueta. Fora dessas condições, a troca ou o reembolso são recusados e a peça é enviada de volta, com frete por sua conta." },
   { title: "Troca de tamanho", text: "Não fazemos trocas por gosto, cor ou modelo. Troca de tamanho em até 7 dias após a compra, explicando o motivo, sujeita ao estoque. Fretes por conta do cliente. Uma troca por pedido." },

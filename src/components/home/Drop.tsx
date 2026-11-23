@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { brl, PRODUCTS } from "@/lib/store";
+import { brl, KIT_PROMO, PRODUCTS } from "@/lib/store";
 
 /** As duas camisetas, com bastante respiro. */
 export default function Drop() {
   return (
     <section className="mx-auto max-w-[1400px] px-4 py-28 sm:px-8 sm:py-40">
       <p className="text-center font-mono text-[11px] tracking-[0.3em] text-muted uppercase">Lote 001</p>
+      <p className="mt-3 text-center font-mono text-[11px] tracking-[0.2em] uppercase">{KIT_PROMO.short}</p>
       <div className="mt-14 grid gap-16 sm:grid-cols-2 sm:gap-10">
         {PRODUCTS.map((p) => (
           <Link key={p.slug} href={`/produtos/${p.slug}`} className="group block">

@@ -83,7 +83,12 @@ export default function ProductView({ p }: { p: Product }) {
           <span className="font-mono text-sm">{brl(p.pixPrice)}</span>
           <span className="font-mono text-[11px] tracking-[0.15em] uppercase">6% de desconto pagando com Pix</span>
         </div>
-        <p className="mt-2 text-xs text-muted">Não acumulável com algumas promoções</p>
+        <div className="mt-4 border border-ink/20 px-4 py-3">
+          <p className="font-mono text-[11px] tracking-[0.2em] uppercase">Leve 2 e ganhe desconto</p>
+          <p className="mt-1 text-sm text-ink-2">
+            Comprando duas camisetas, de qualquer cor e tamanho, o desconto aparece no carrinho.
+          </p>
+        </div>
 
         <fieldset className="mt-10">
           <legend className="font-mono text-[11px] tracking-[0.2em] uppercase">
